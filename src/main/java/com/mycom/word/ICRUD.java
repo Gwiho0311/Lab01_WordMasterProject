@@ -1,6 +1,6 @@
 package com.mycom.word;
 
-public interface ICRUD {
+public interface ICRUD { // interface of CRUD
     public Object add();
     public int update(Object obj);
     public int delete(Object obj);
