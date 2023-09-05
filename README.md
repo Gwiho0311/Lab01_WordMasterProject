@@ -1,6 +1,4 @@
 # WordCRUD Program
-
-##Description
 단어를 추가하고 읽고 업데이트하고 삭제하는 등의 다양한 기능을 수행할 수 있는 프로그램이다.
 
 ## Files
