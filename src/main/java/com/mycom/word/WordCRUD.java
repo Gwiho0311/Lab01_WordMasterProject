@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.Dictionary;
 import java.util.Scanner;
 
-public class WordCRUD implements ICRUD {
+public class WordCRUD implements ICRUD { // CRUD
     ArrayList<Word> list;
     Scanner s;
     final String fname = "Dictionary.txt";
@@ -17,7 +17,7 @@ public class WordCRUD implements ICRUD {
 
 
     @Override
-    public Object add() {
+    public Object add() { // 단어 추가
         System.out.print("=> 난이도(1,2,3) & 새 단어 입력 : ");
         int level = s.nextInt();
         String word = s.nextLine();
@@ -27,7 +27,7 @@ public class WordCRUD implements ICRUD {
 
         return new Word(0, level, word, meaning);
     }
-    public void addItem(){
+    public void addItem(){ 
         Word one = (Word)add();
         list.add(one);
         System.out.println("새 단어가 단어장에 추가되었습니다. ");
@@ -36,12 +36,12 @@ public class WordCRUD implements ICRUD {
     @Override
     public int update(Object obj) {
         return 0;
-    }
+    } // 단어 업데이트
 
     @Override
     public int delete(Object obj) {
         return 0;
-    }
+    } // 단어 삭제
 
     @Override
     public void selectOne(int id) {

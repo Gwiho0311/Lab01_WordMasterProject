@@ -24,7 +24,7 @@ public class WordManager {
                 + "=> 원하는 메뉴는? ");
         return s.nextInt();
     }
-    public void start() {
+    public void start() { // menu를 보여주고 commend를 입력받아 그에 따른 기능 실행하는 method
         wordCRUD.loadFile();
         while(true){
             int menu = selectMenu();
