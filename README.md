@@ -124,4 +124,4 @@ Function
 
 + commend 7: 변화된 것을 파일에 저장한다. 
 
-+ commend 0: 프로그램을 종료한다. 
++ commend 0: 프로그램을 종료한다.

@@ -2,12 +2,13 @@ package com.mycom.word;
 
 import java.util.Scanner;
 
-public class WordManager {
+public class WordManager { // test
     Scanner s = new Scanner(System.in);
     WordCRUD wordCRUD;
 
     WordManager(){
         wordCRUD = new WordCRUD(s);
+
     }
 
     public int selectMenu() { // 메뉴 세팅
